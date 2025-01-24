@@ -14,7 +14,7 @@ html{
     grid-template-areas:
         "header header header header"
         "main main main main"
-        "article1 article1 article1 article1"
+        "section1 section1 section1 section1"
         "footer footer footer footer";
     grid-template-rows: auto 1fr 1fr auto;
     height: 100%;
@@ -86,9 +86,19 @@ nav {
 
 }
 
-#article1 {
+article{
+    margin: 0 auto;
+    max-width: 800px;
+    width: 90%;
+}
+
+p{
+line-height: 1.5;
+}
+
+#section1 {
     background: #f7d0d0;
-    grid-area: article1;
+    grid-area: section1;
     display: grid;
     place-items: center;
     }
@@ -110,7 +120,7 @@ footer {
         grid-template-areas:
             "header header"
             "main main"
-            "article1 article1"
+            "section1 section1"
             "footer footer";
 
     }
@@ -124,7 +134,7 @@ footer {
         grid-template-areas:
             "header"
             "main"
-            "article1"
+            "section1"
             "footer";
 
     }
