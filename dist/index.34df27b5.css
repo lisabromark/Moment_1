@@ -12,7 +12,7 @@ html {
   grid-template-rows: auto 1fr 1fr auto;
   grid-template-areas: "header header header header"
                        "main main main main"
-                       "article1 article1 article1 article1"
+                       "section1 section1 section1 section1"
                        "footer footer footer footer";
   height: 100%;
   display: grid;
@@ -76,9 +76,19 @@ nav {
   display: grid;
 }
 
-#article1 {
+article {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 1.5;
+}
+
+#section1 {
   background: #f7d0d0;
-  grid-area: article1;
+  grid-area: section1;
   place-items: center;
   display: grid;
 }
@@ -96,7 +106,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "header header"
                          "main main"
-                         "article1 article1"
+                         "section1 section1"
                          "footer footer";
   }
 }
@@ -106,7 +116,7 @@ footer {
     grid-template-columns: 1fr;
     grid-template-areas: "header"
                          "main"
-                         "article1"
+                         "section1"
                          "footer";
   }
 
