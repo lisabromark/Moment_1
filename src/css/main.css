@@ -95,6 +95,9 @@ p{
 line-height: 1.5;
 }
 
+li {
+margin-bottom:10px;
+}
 #section1 {
     background: #f7d0d0;
     grid-area: section1;

@@ -10,7 +10,6 @@
 </head>
 
 <body>
-    <div class="wrapper">
     <header>
         <div class="container">
 
@@ -57,27 +56,43 @@
                         allt och optimera processen automatiskt.</li>
                     <li>Lägg till relevanta delar för att skapa en responsiv hemsida (inkl. undersidor) - under
                         utvecklingens gång används en live server som fås genom (npm run start),
-                        då kommer ändringar synas direkt utan att omladdning behövs, dessutom är det inte filerna i src som
+                        då kommer ändringar synas direkt utan att omladdning behövs, dessutom är det inte filerna i
+                        src som
                         körs, utan optimerade filer som ligger i dist-katalogen.</li>
                     <li>Git-repo används under utvecklingens gång för versionshantering.</li>
                 </ul>
                 <h3>Del 3 - Publicering av hemsida:</h3>
                 <ul>
-                    <li>Netlify används för publicering, där (npm run build) används. Genom att välja deploy här
-                        så knyts git-repot till Netlify som ligger och lyssnar på förändringar och automatiskt gör ett nytt
-                        bygge vid varje commit.</li>
+                    <li>Netlify används för publicering, där (npm run build) används.
+                    <li>Genom att välja deploy så knyts git-repot till Netlify som ligger och lyssnar på förändringar
+                        och automatiskt gör
+                        ett nytt bygge vid varje commit.</li>
                 </ul>
-                </p>
+                <h3>Verktyg för automatisering</h3>
+                <ul>
+                    <li>
+                        Node.js:
+                    </li>
+                    <ul>
+                        <li>https-förfrågningar</li>
+                        <li>databasoperationer</li>
+                        <li>asynkrona operationer</li>
+                        <li>kodoptimering</li>
+                    </ul>
+                    <li>Node.js + Parcel:</li>
+                    <ul>
+                        <li>byggflöden</li>
+                    </ul>
+                    <li>Netlify:</li>
+                    <ul>
+                        <li>publicering av repo</li>
+                        <li>skapar domän</li>
+
+                    </ul>
+                </ul>
             </article>
         </main>
-        <section id="section1"></section>
     </div>
-    <footer>
-        <div class="container">
-            Footer
-        </div>
-    </footer>
-</div>
 
 </body>
 
